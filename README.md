@@ -22,14 +22,6 @@ First of all, change the Amazon ECR repository name.
 +  ecr_repository_name = "YOUR_ECR_REPOSITORY_NAME"
 ```
 
-Next, download Lambda's dependencies using pipenv.
-
-```sh
-$ cd lambda
-$ pipenv --python 3.8.8
-$ pipenv install
-```
-
 And then, Check the necessary infra resources and deploy to AWS cloud.
 
 ```sh
@@ -60,6 +52,10 @@ START RequestId: 5926d73f-d4c4-46ba-88cf-7cbeed6a4cb7 Version: $LATEST
 END RequestId: 5926d73f-d4c4-46ba-88cf-7cbeed6a4cb7
 REPORT RequestId: 5926d73f-d4c4-46ba-88cf-7cbeed6a4cb7  Duration: 47.52 ms      Billed Duration: 48 ms  Memory Size: 128 MB     Max Memory Used: 109 MB
 ```
+
+## Local testing
+
+TBD
 
 ## Author
 
