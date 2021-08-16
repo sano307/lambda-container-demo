@@ -1,4 +1,4 @@
-# terraform-lambda-container-demo
+# lambda-container-demo
 
 How to manage Lambda Container and Amazon ECR on Terraform.
 
